@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-saira {
+  font-family: var(--font-saira);
+}
+
+.font-secular-one {
+  font-family: var(--font-secular-one);
+}
+
+.font-seymour-one {
+  font-family: var(--font-seymour-one);
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
